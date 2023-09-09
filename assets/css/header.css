@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(250, 159, 92); */
+    background-color:#424242;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,transparent 0 -3px 0 inset;
+
+    width: 100%;
+    height: 70px;
+}
+.title {
+    font-weight: 900;
+    padding: 10px;
+}
+.title a{
+    font-size: 40px;
+    text-decoration: none;
+    /* color: rgb(233, 252, 255); */
+    color: #fff;
+}
+
+.userPresent {
+    display: flex;
+    font-weight: 600;
+}
+.nameOfUser {
+    font-size: 30px;
+    color: rgb(233, 252, 255);
+    /* color: #fff; */
+    padding: 10px;
+    margin: 4px;
+}
+.logOut{    
+    font-size: 30px;
+    margin: 6px;
+    padding: 10px;
+}
+.logOut a{
+    text-decoration: none;
+    color: rgb(233, 252, 255);
+}
+
+.noUser ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.noUser li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+.noUser li a{
+    text-decoration: none;
+    /* color: rgb(253, 234, 219); */
+    color: rgb(233, 252, 255);
+}
+
+
+/* hover */
+.noUser li:hover {
+    text-decoration: underline 1px;
+    text-decoration-color: rgb(233, 252, 255);
+}
+/* .logOut :hover {
+    text-decoration: underline 1px;
+    text-decoration-color: rgb(233, 252, 255);
+} */
+
