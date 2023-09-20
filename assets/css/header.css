@@ -6,9 +6,7 @@ body {
     display: flex;
     justify-content: space-between;
     /* background-color: rgb(250, 159, 92); */
-    background-color:#424242;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,transparent 0 -3px 0 inset;
-
+    background-color:  rgb(3, 30, 44);
     width: 100%;
     height: 70px;
 }

@@ -1,11 +1,7 @@
 const mongoose = require('mongoose');
 
-// storing the db on mongo atlas
-const DB = "mongodb+srv://himadrinayak:12345@cluster0.h7n86ah.mongodb.net/habit-tracker?retryWrites=true&w=majority";
 
-// mongoose.connect('mongodb://127.0.0.1/habit_tracker');
-
-mongoose.connect(DB).then(()=>{
+mongoose.connect('mongodb://127.0.0.1/habit_tracker').then(()=>{
     console.log('Connection successful!');
 }).catch((err) => console.log("no connection " + err));
 

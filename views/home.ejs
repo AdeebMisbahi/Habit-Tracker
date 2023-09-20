@@ -1,11 +1,13 @@
  <link rel="stylesheet" href="/css/home.css">
+ 
+ <!-- header  -->
+<%- include('_header'); %>
 
 <div>
     <!----------- if user is not logged in ----------->
     <% if(!locals.user) { %>
         <div class="welcome-title">
-            We first make our habits,
-             <br> then our habits make us.
+             Build the best version of yourself <br> by mastering your habits.
         </div>
         <form action="/users/sign-up" method="GET">
             <button class="welcome-button">Get Started</button>

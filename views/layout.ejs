@@ -9,17 +9,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
     <!-- awesome fonts -->
     <script src="https://kit.fontawesome.com/f383b6eabf.js" crossorigin="anonymous"></script>
-    <%- style %>
 </head>
 
 
 <body>
-   <%- include('_header'); %>
 
     <main id="layout-main">
         <%- body %>
-
-   <%- include('_footer'); %>   
         
 
     <script>
@@ -41,8 +37,7 @@
             }).show()
         <% } %>
     </script>
- 
-    <%- script %>
+
 </body>
 
 </html>

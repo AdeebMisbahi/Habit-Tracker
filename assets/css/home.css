@@ -1,22 +1,21 @@
+:root{
+  
+}
 body {
-  margin: 0;
-  background-image: linear-gradient(100deg, #d4f1ff, #ffffff);
-  color: #1a150e;
-  transition: 0.3s linear;
+     background-color: #8BC6EC;
+     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
     font-family: "JetBrains Mono",monospace;
 }
 
+
 /* ---------- styles on welcome page ---------- */
-.welcome-img {
-    width: 100%;
-    position: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -10;
-}
+
 .welcome-title {
-  color: #424242;
+  color:rgb(3, 30, 44);
   font-size: 30px;
   font-weight: 600;
   text-align: center;
@@ -25,7 +24,7 @@ body {
 .welcome-button {
   width: 200px;
   height: 50px;
-  background-color: #424242;
+  background-color:  rgb(3, 30, 44);
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -33,7 +32,7 @@ body {
   margin-left: 40%;
   margin-top: 20px;
   cursor: pointer;
-  box-shadow: 0 0.5em 0.5em -0.4em  #424242;
+  box-shadow: 0 0.5em 0.5em -0.4em  rgb(16, 133, 151);
 }
 .welcome-button:hover,
 .welcome-button:focus {
@@ -43,14 +42,14 @@ body {
 
 /* ---------- styles when there are no habits ---------- */
 #noHabitText{
-    color:  #424242;
+    color:   rgb(3, 30, 44);
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
 }
 /* Button used to open the form */
 #open-btn-fixed {
-  background-color: #424242;
+  background-color: rgb(3, 30, 44);
   color: white;
   font-size: 18px;
   padding: 12px 10px;
@@ -61,7 +60,7 @@ body {
   opacity: 0.8;
   position: fixed;
   width: 250px;
-  box-shadow: 0 0.5em 0.5em -0.4em #424242;
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(3, 30, 44);
 }
 #open-btn-fixed:hover,
 #open-btn-fixed:focus {
@@ -71,16 +70,19 @@ body {
 .form-popup {
   display: none;
   position: fixed;
-  left: 20%;
-  top: 17%;
+  left: 24%;
+  right: 24%; 
+   top: 100px;
   z-index: 9;
   text-align: center;
 }
 /* Add styles to the form container */
 .form-container {
-  width: 700px;
-  height: 300px;
+  margin: 0 auto;
+  max-width: 500px;
+  height: 250px;
   padding: 10px;
+  padding-bottom: 20px;
   background-color: rgba(16, 133, 151, 0.7);
 }
 .form-container input {
@@ -132,25 +134,25 @@ body {
 }
 .habit-container {
   display: flex;
+  justify-content:space-between;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: rgba(255, 255, 255, 0.85);
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  background-image: linear-gradient(-90deg, #e0ecfc 7%, #bcbcdd 100%);
   width: 70%;
-  height: 100px;
+  height: 90px;
   margin-right: 170px;
-  padding: 5px;
+  padding: 10px;
   margin-top: 20px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#bcbcdd 0 -3px 0 inset;
 }
 .habit-title {
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.85);
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  margin-right: 12px;
   margin-top: 20px;
-  margin-right: 20px;
-  padding: 5px;
   width: 20%;
-  color: #108597;
+  height: 90px;
+  padding: 10px;
+  background-image: linear-gradient(-90deg,  #bcbcdd 7%, #e0ecfc 100%);
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#bcbcdd 0 -3px 0 inset;
+  color: rgb(3, 30, 44);
 }
 .day-container {  
   margin-right: 5px;

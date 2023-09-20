@@ -18,10 +18,10 @@ const passportLocal = require('./config/passport_local');
 
 const MongoStore = require('connect-mongo');
 
+
+
 // layouts for ejs
 app.use(expressLayouts);
-app.set('layout extractStyles', true);
-app.set('layout extractScripts', true);
 app.use(bodyParser.urlencoded({extended:false}));
 
 // set up the view engine
